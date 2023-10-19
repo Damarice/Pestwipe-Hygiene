@@ -22,7 +22,7 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity .5s ease-out, visibility 0s linear .10s;
     z-index: 99999;
 }
 
@@ -35,7 +35,7 @@
 /*** Button ***/
 .btn {
     font-weight: 600;
-    transition: .5s;
+    transition: .10s;
 }
 
 .btn.btn-primary,
@@ -77,7 +77,7 @@
 .nav-bar {
     position: relative;
     padding: 0 4.75rem;
-    transition: .5s;
+    transition: .10s;
     z-index: 9999;
 }
 
@@ -136,13 +136,13 @@
         top: 150%;
         opacity: 0;
         visibility: hidden;
-        transition: .5s;
+        transition: .10s;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
-        transition: .5s;
+        transition: .10s;
         opacity: 1;
     }
 }
@@ -221,7 +221,7 @@ page-header .container::after {
     border: 1px solid #FFFFFF;
     border-radius: 45px;
     font-size: 22px;
-    transition: .5s;
+    transition: .10s;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -247,7 +247,7 @@ page-header .container::after {
 
 /*** Service ***/
 .service-item-top img {
-    transition: .5s;
+    transition: .10s;
 }
 
 .service-item-top:hover img {
@@ -269,7 +269,7 @@ page-header .container::after {
     height: 15px;
     background: var(--primary);
     border: 5px solid var(--light);
-    transition: .5s;
+    transition: .10s;
 }
 
 .service-carousel .owl-dot.active {
@@ -420,7 +420,7 @@ page-header .container::after {
 
 /*** Team ***/
 .team-item img {
-    transition: .5s;
+    transition: .10s;
 }
 
 .team-item:hover img {
@@ -440,7 +440,7 @@ page-header .container::after {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transition: .5s;
+    transition: .10s;
 }
 
 .team-item .team-text .bg-primary {
@@ -465,7 +465,7 @@ page-header .container::after {
 .testimonial-carousel .owl-item .testimonial-text,
 .testimonial-carousel .owl-item.center .testimonial-text * {
     position: relative;
-    transition: .5s;
+    transition: .10s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
@@ -486,7 +486,7 @@ page-header .container::after {
     transform: translateX(-50%);
     border: 15px solid;
     border-color: var(--light) transparent transparent transparent;
-    transition: .5s;
+    transition: .10s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text::after {
@@ -502,7 +502,7 @@ page-header .container::after {
     display: flex;
     justify-content: space between;
     opacity: 0;
-    transition: .5s;
+    transition: .10s;
     z-index: 1;
 }
 
@@ -534,7 +534,7 @@ page-header .container::after {
     color: var(--light);
     border: 1px solid #FFFFFF;
     border-radius: 35px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .footer .btn.btn-social:hover {
@@ -550,7 +550,7 @@ page-header .container::after {
     font-size: 15px;
     font-weight: normal;
     text-transform: capitalize;
-    transition: .3s;
+    transition: .5s;
 }
 
 .footer .btn.btn-link::before {
